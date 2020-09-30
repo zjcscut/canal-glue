@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "order_id": "10086",
+      "customer_name": "2fMUneCrDlfQ2fJb4C9z4g==",
+      "customer_phone": "vcF30X9FStR8x2XAKjaXuQ==",
+      "amount": "999.0",
+      "create_time": "2020-03-02 05:12:49"
+    }
+  ],
+  "database": "db_order_service",
+  "es": 1583143969000,
+  "id": 3,
+  "isDdl": false,
+  "mysqlType": {
+    "id": "BIGINT",
+    "order_id": "VARCHAR(64)",
+    "customer_phone": "VARCHAR(64)",
+    "customer_name": "VARCHAR(64)",
+    "amount": "DECIMAL(10,2)",
+    "create_time": "DATETIME"
+  },
+  "old": null,
+  "pkNames": [
+    "id"
+  ],
+  "sql": "",
+  "sqlType": {
+    "id": -5,
+    "order_id": 12,
+    "customer_phone": 12,
+    "customer_name": 12,
+    "amount": 3,
+    "create_time": 93
+  },
+  "table": "t_order",
+  "ts": 1583143969460,
+  "type": "INSERT"
+}

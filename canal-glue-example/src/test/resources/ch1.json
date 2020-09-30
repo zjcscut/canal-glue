@@ -1,0 +1,15 @@
+{
+  "data": null,
+  "database": "db_order_service",
+  "es": 1583143957000,
+  "id": 2,
+  "isDdl": true,
+  "mysqlType": null,
+  "old": null,
+  "pkNames": null,
+  "sql": "CREATE TABLE `t_order`\n(\n    id          BIGINT UNIQUE PRIMARY KEY AUTO_INCREMENT COMMENT '主键',\n    order_id    VARCHAR(64)    NOT NULL COMMENT '订单ID',\n    amount      DECIMAL(10, 2) NOT NULL DEFAULT 0 COMMENT '订单金额',\n    create_time DATETIME       NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',\n    UNIQUE uniq_order_id (`order_id`)\n) COMMENT '订单表'",
+  "sqlType": null,
+  "table": "t_order",
+  "ts": 1583143958045,
+  "type": "CREATE"
+}
