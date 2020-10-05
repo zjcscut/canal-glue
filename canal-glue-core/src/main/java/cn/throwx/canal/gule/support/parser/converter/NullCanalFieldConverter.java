@@ -8,19 +8,19 @@ import java.sql.JDBCType;
  * @description
  * @since 2020/9/20 18:11
  */
-public class NullCanalFieldConverter extends BaseCanalFieldConverter<Object> {
+public class NullCanalFieldConverter extends BaseCanalFieldConverter<Void> {
 
     /**
      * 单例
      */
-    public static final BaseCanalFieldConverter<Object> X = new NullCanalFieldConverter();
+    public static final BaseCanalFieldConverter<Void> X = new NullCanalFieldConverter();
 
     private NullCanalFieldConverter() {
         super(JDBCType.NULL, Void.class);
     }
 
     @Override
-    protected Object convertInternal(String source) {
+    protected Void convertInternal(String source) {
         return null;
     }
 }

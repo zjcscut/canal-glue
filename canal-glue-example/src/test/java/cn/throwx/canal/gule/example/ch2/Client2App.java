@@ -42,12 +42,6 @@ public class Client2App {
         private BigDecimal amount;
     }
 
-    /**
-     * 覆盖默认的ExceptionHandler.NO_OP
-     */
-    private static final ExceptionHandler EXCEPTION_HANDLER = (event, throwable)
-            -> log.error("解析binlog事件出现异常,事件内容:{}", JSON.toJSONString(event), throwable);
-
     public static class OrderProcessor extends BaseCanalBinlogEventProcessor<OrderModel> {
 
         @Override
@@ -61,6 +55,12 @@ public class Client2App {
         protected ExceptionHandler exceptionHandler() {
             return EXCEPTION_HANDLER;
         }
+
+        /**
+         * 覆盖默认的ExceptionHandler.NO_OP
+         */
+        private static final ExceptionHandler EXCEPTION_HANDLER = (event, throwable)
+                -> log.error("解析binlog事件出现异常,事件内容:{}", JSON.toJSONString(event), throwable);
     }
 
     @Bean
