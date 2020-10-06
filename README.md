@@ -1054,6 +1054,8 @@ public class CanalEventListeners {
 
 - `Gitee`：`https://gitee.com/throwableDoge/canal-glue`
 
-**仓库代码暂时放在`develop`分支**。
+**仓库最新代码暂时放在`develop`分支**。
 
 （本文完 c-15-d e-a-20201005 鸽了快一个月）
+
+<iframe src="https://throwable-blog-1256189093.cos.ap-guangzhou.myqcloud.com/static/donate/index.html" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #444; min-height:240px; width:100%; background: transparent" frameborder="0" scrolling="no"></iframe>
