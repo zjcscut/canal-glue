@@ -1058,4 +1058,6 @@ public class CanalEventListeners {
 
 （本文完 c-15-d e-a-20201005 鸽了快一个月）
 
-<iframe src="https://throwable-blog-1256189093.cos.ap-guangzhou.myqcloud.com/static/donate/index.html" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #444; min-height:240px; width:100%; background: transparent" frameborder="0" scrolling="no"></iframe>
+## 加个鸡腿
+
+![](https://throwable-blog-1256189093.cos.ap-guangzhou.myqcloud.com/mine/square-wechat.jpg)
